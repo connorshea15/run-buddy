@@ -58,6 +58,9 @@ footer {
     background: #fce138;
     width:100%;
     padding: 40px 35px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
 }
 
 /* Apply these styles to the heading in the footer */
@@ -65,12 +68,10 @@ footer h2 {
     color: #024e76;
     font-size: 30px;
     margin: 0;
-    display: inline;
 }
 
 /* Arrange the div aka privacy policy and copyright on the right of the page */
 footer div {
-    float: right;
     line-height: 1.5;
     text-align: right;
 }
